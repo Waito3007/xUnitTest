@@ -13,18 +13,18 @@ Sau khi hoàn thành, bạn sẽ nắm được:
 ---
 
 ## 🧩 Cấu trúc thư mục
-*UnitTestPracticeSolution/
-*│
-*├── UnitTestPractice/ (Class Library - Code chính)
-*│   ├── Calculator.cs
-*│   ├── NumberService.cs
-*│   ├── ScoreService.cs
-*│   └── UserService/
-*│       ├── IUserRepository.cs
-*│       ├── User.cs
-*│       └── UserService.cs
-*│
-*└── UnitTestPractice.Tests/ (xUnit Test Project)
+* UnitTestPracticeSolution/
+* │
+* ├── UnitTestPractice/ (Class Library - Code chính)
+* │   ├── Calculator.cs
+* │   ├── NumberService.cs
+* │   ├── ScoreService.cs
+* │   └── UserService/
+* │       ├── IUserRepository.cs
+* │       ├── User.cs
+* │       └── UserService.cs
+* │
+* └── UnitTestPractice.Tests/ (xUnit Test Project)
 *    ├── CalculatorTests.cs
 *    ├── NumberServiceTests.cs
 *    ├── ScoreServiceTests.cs
