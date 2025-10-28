@@ -18,7 +18,13 @@ public class UserService: IUserService
         return user?.Name ?? "Not found";
     }
 
-    public async Task<User> GetById(int id)
+    public async Task<User?> GetById(int id)
+    {
+        var user = await _repo.GetById(id);
+        return user;
+    }
+
+    public async Task<User?> GetUserDetailsAsync(int id)
     {
         var user = await _repo.GetById(id);
         return user;
