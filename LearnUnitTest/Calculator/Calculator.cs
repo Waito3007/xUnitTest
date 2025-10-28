@@ -2,7 +2,7 @@ namespace LearnUnitTest;
 
 public class Calculator
 {
-    public int Sum (int a, int b)
+    public int Add (int a, int b)
     {
         return a + b;
     }

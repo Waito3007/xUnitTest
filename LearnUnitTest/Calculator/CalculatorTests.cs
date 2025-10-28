@@ -10,7 +10,7 @@ public class CalculatorTests
     [Fact]
     public void SumCalculator()
     {
-            var result = _calculator.Sum(3,4);
+            var result = _calculator.Add(3,4);
             Assert.Equal(7,result);
     }
 
@@ -25,13 +25,19 @@ public class CalculatorTests
     public void MultiplyCalculator()
     {
         var result = _calculator.Multiply(2,3);
-        Assert.Equal(2, result);
+        Assert.Equal(6, result);
     }
 
     [Fact]
     public void DivideCalculator()
     {
-        var result = _calculator.Divide(2,3);
-        Assert.Equal(2, result);
+        var result = _calculator.Divide(9,3);
+        Assert.Equal(3, result);
+    }
+
+    [Fact]
+    public void DivideByZeroCalculator()
+    {
+        Assert.Throws<DivideByZeroException>(() => _calculator.Divide(9,0));
     }
 }
