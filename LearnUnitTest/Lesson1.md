@@ -1,9 +1,9 @@
 # 🧪 Unit Test Practice (xUnit + Moq)
 
 ## 🎯 Mục tiêu
-Bộ bài tập này giúp bạn làm quen với **Unit Test trong .NET** bằng framework **xUnit** và thư viện **Moq**.
+làm quen với **Unit Test trong .NET** bằng framework **xUnit** và thư viện **Moq**.
 
-Sau khi hoàn thành, bạn sẽ nắm được:
+Sau khi hoàn thành, nắm được:
 - Cách tạo project test (`xUnit`)
 - Cách viết test case với `[Fact]`, `[Theory]`
 - Sử dụng `Assert` để kiểm tra kết quả
