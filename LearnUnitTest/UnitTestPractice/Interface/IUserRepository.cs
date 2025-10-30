@@ -4,6 +4,6 @@ namespace LearnUnitTest.UnitTestPractice.Interface;
 
 public interface IUserRepository
 {
-    Task<User?>  GetById(int id);
+    Task<User?>  GetById(ServerType.ServerRequest request);
 }
 

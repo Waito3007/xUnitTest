@@ -11,9 +11,9 @@ public class UserRepository :IUserRepository
         new User { Id = 3, Name = "Yu" }
     };
 
-    public async Task<User?>  GetById(int id)
+    public async Task<User?>  GetById(ServerType.ServerRequest request)
     {
-        var result =  user.FirstOrDefault(u => u.Id == id);
+        var result = user.FirstOrDefault(u => u.Id == request.Id);
         return result;
     }
 }
